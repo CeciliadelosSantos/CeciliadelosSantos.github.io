@@ -1,0 +1,107 @@
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color:blueviolet;
+
+}
+
+h2{
+  background-color: #faebd7;
+  width: 600px;
+  height: 20px;
+  justify-content: center; 
+  align-items: center;
+  margin:auto;
+  padding: 5px;
+  border-radius: 6px;
+
+}
+
+h3{
+  background-color: #ffebcd;
+  width: 600px;
+  height: 20px;
+  justify-content: center; 
+  align-items: center;
+  margin:auto;
+  padding: 5px;
+  border-radius: 6px;
+
+}
+
+.subtitulos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:22px;
+  text-align: center;
+  color: blueviolet;
+  }
+
+.texto{
+  max-width: 600px; /* Ancho máximo del contenedor */
+  max-height: 350px;  /*Altura máxima del contenedror */
+  margin: auto; /* Centrar el contenedor en la página */
+  padding: 10px; /* Espacio alrededor del contenido */
+  background-color:#a957bc; /* Color de fondo del contenedor */
+  border-radius: 6px; /* Bordes redondeados */
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+}
+
+
+
+#presentación {
+  background-color: #ffe4c4;
+  width: 1000px;
+  height: 100px;
+  justify-content: center; 
+  align-items: center;
+  margin:auto;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+
+ul {
+  color: #f0f0f0; /* Color del texto */
+  padding: 10px; /* Espacio dentro del contenedor de la lista */
+  line-height: 1.6; /* Interlineado */
+  margin-top: 5px; /* Margen superior de la lista */
+  margin-bottom: 5px; /* Margen inferior de la lista */
+}
+
+ul li {
+  margin-bottom: 10px; /* Espacio entre elementos de la lista */
+  padding-left: 5px; /* Espacio entre el borde izquierdo y el contenido del elemento */
+  position: relative; /* Necesario para posicionar correctamente la viñeta */
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+  background-color: rgb(161, 93, 224);
+  border-radius: 6px;
+}
+
+figure {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.imagen {
+  max-width: 100%;
+  width: 250px; /* Ancho fijo para todas las imágenes */
+  height: 400px; /* Ajusta automáticamente la altura */
+  border-radius: 5px; 
+}
+
+figcaption {
+  background-color: rgba(47, 15, 71, 0.5); 
+  padding: 5px;
+  border-radius: 6px;
+}
